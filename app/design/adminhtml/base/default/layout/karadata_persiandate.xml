@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <remove name="head.calendar"/>
+
+            <action method="removeItem">
+                <type>js</type>
+                <name>calendar/calendar.js</name>
+            </action>
+            <remove name="head.calendar"/>
+
+            <action method="removeItem">
+                <type>js</type>
+                <name>calendar/calendar-setup.js</name>
+            </action>
+            
+            
+            <action method="addItem">
+                <type>js_css</type>
+                <name>jalalijscalendar/skins/aqua/theme.css</name>
+            </action>
+            
+            <action method="addItem">
+                <type>js</type>
+                <name>jalalijscalendar/jalali.js</name>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name>jalalijscalendar/calendar.js</name>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name>jalalijscalendar/calendar-setup.js</name>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name>jalalijscalendar/lang/calendar-fa.js</name>
+            </action>        
+                                
+        </reference>
+                  
+        <reference name="content">
+            <block type="core/template" name="head.calendar" as="calendar" template="page/js/calendar.phtml"/>
+        </reference>
+        
+    </default>
+</layout>

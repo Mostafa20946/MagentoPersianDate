@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Karadata_Persiandate>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Karadata_Persiandate>
+    </modules>
+</config>
